@@ -1,0 +1,143 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	width: 100%;
+	height: 10%;
+	background-color: rgba(58, 255, 254, 0.5);
+	position: fixed;
+}
+.cab_nav{
+	width: 100%;
+	padding: 20px;
+	text-align: right;
+	position: fixed;
+	top: 0px;
+}
+.cab_nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 50px;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.cab_nav ul li a{
+	 text-decoration: none;
+	 color: black;
+}
+.nomb_logo{
+	width: 330px;
+	padding: 10px 20px;
+	float: left;
+	position: relative;
+	top: 5%;
+	left: 2%;
+	color: #000;
+	font-size: 30px; 
+}
+.logo_img{
+	width: 80px;
+	position: absolute;
+	transform: translateX(-1340px) translateY(-20px)
+	}
+	.fondo_p{
+		background: url(gg/img1.jpg);
+		width: 100%;
+		height: 100vh;
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+	.fondo_p h1{
+		font-size: 60px;
+		color:#000;
+	}
+	.secion_f{
+		max-width: 1100px;
+		width: 90%;
+		overflow: hidden;
+		margin: auto;
+		color: #000;
+		padding: 20px 0px;
+
+	}
+	.secion{
+		background: url(gg/img5.jpg);
+		width: 100%;
+		height: 110vh;
+		background-position: center;
+		position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		justify-content: center;
+		align-items: center;
+	}
+	.secion h2, .secion_1 h2, .secion_2 h2{
+		font-size: 60px;
+		text-align: center;
+		padding: 400px 0px;
+		color: #000;
+	}
+	.titulos{
+		font-size: 35px;
+		text-align: center;
+		padding: 60px 0px;
+	}
+	.parrafos{
+		font-size: 20px;
+		padding: 20px;
+		text-align: justify;
+
+	}
+
+	/*Replicas*/
+	.secion_1{
+		background: url(gg/img4.jpg);
+		width: 100%;
+		height: 110vh;
+		background-position: center;
+		position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		justify-content: center;
+		align-items: center;
+	}
+	.secion_2{
+		background: url(gg/img2.jpg);
+		width: 100%;
+		height: 110vh;
+		background-position: center;
+		position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		justify-content: center;
+		align-items: center;
+	}
+	.foot{
+	background-color:rgba(0, 0, 0, 0.6);
+	margin-top: 41%
+	width: 100%;
+	padding: 20px 0px;
+	position: relative;
+	top: 595px;
+	left: 2px;
+}
+.foot_p{
+	color:#fff;
+	text-align: center;
+}
+.marca{
+	background-color: rgba(54, 51, 0, 0.4);
+}
+.marca2{
+	background-color: rgba(54, 51, 0, 0.4);
+}
+.marca3{
+	background-color: rgba(54, 51, 0, 0.4);
+}
